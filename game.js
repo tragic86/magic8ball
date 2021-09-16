@@ -26,7 +26,7 @@ window.onload = function() {
     const eightball = document.getElementById("eight-ball");
     const question = document.getElementById("question");
     
-    eightball.addEventListener("click", function() {
+    answer.addEventListener("click", function() {
       if (question.value.length < 1) {
         alert('Hey!!! Enter a question!');
       } else {
